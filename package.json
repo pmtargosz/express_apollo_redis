@@ -1,0 +1,34 @@
+{
+  "name": "express_apollo_redis",
+  "version": "0.0.1",
+  "description": "Express server with apollo, GraphQl and redis",
+  "main": "index.js",
+  "scripts": {
+    "server": "NODE_ENV=development nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmtargosz/express_apollo_redis.git"
+  },
+  "keywords": [
+    "express",
+    "graphQl",
+    "redis",
+    "apollo"
+  ],
+  "author": "Pawel Targosz <pmtargosz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmtargosz/express_apollo_redis/issues"
+  },
+  "homepage": "https://github.com/pmtargosz/express_apollo_redis#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.2.2",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "redis": "^2.8.0"
+  }
+}
